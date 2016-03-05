@@ -32,7 +32,7 @@ You'll end up with a text file giving you the top 5 x264 settings coming out fro
 
 2) Edit source.avs by adding your video source with the desired cropping, fps, resolution and filters.
 
-2) By using SelectRangeEvery choose 5-6 frames that you wish MATLAB to compare them with the source after the encoding. Choose some challenging ones (no black bars or few colors).
+2) By using SelectRangeEvery choose 6-7 frames that you wish MATLAB to compare them with the source after the encoding. Choose some challenging ones (no black bars or few colors).
 
 3) Press F5 and with right click Save Image As export each frame as png to your movie folder with the name "source_##.png"
 4) Run RUN_THIS_ONLY.bat (give it a few seconds to initialize).
@@ -79,3 +79,5 @@ You can edit the *.settings.bat files by finding and replacing the following set
 DO NOT CHANGE THE --CRF OR THE --REF settings. MATLAB will ask to fix these for you.
 
 You can find all the tests from best to worst if you load and run the script directly from MATLAB, inside the "Back3" matrix in the first column.
+
+The more frames you use in your source.avs script, the more accurate the result will be, but it will take much longer for many frames.
