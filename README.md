@@ -77,3 +77,5 @@ You can edit the *.settings.bat files by finding and replacing the following set
 --chroma-qp-offset 0
 
 DO NOT CHANGE THE --CRF OR THE --REF settings. MATLAB will ask to fix these for you.
+
+You can find all the tests from best to worst if you load and run the script directly from MATLAB, inside the "Back3" matrix in the first column.
