@@ -2,7 +2,6 @@
 Automatically creates x264 test encodes and compares them with the source to find the best setting using MATLAB.
 
 DESCRIPTION:
-
 This script will make extremely easy for encoders to find what x264 settings give them the best results and transparency.
 You'll end up with a text file giving you the top 5 x264 settings coming out from 1100 different tests from the following combinations:
 
