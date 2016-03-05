@@ -45,7 +45,7 @@ You'll end up with a text file giving you the top 5 x264 settings coming out fro
 
 ------------------NOTES:------------------
 
-You can edit the *.settings.bat files by finding and replacing the following settings with your desired ones:
+You can edit the *.settings.bat file by finding and replacing the following settings with your desired ones:
 
 --deblock -2:-2
 --partitions all
