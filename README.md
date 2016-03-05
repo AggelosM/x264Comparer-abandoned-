@@ -78,6 +78,6 @@ You can edit the *.settings.bat file by finding and replacing the following sett
 
 DO NOT CHANGE THE --CRF OR THE --REF settings. MATLAB will ask to fix these for you.
 
-You can find all the tests from best to worst if you load and run the script directly from MATLAB, inside the "Back3" matrix in the first column.
+You can find all the tests from best to worst (inside the "Back3" matrix in the first column) if you load and run the script directly from MATLAB.
 
 The more frames you use in your source.avs script, the more accurate the result will be, but it will take much longer for many frames.
