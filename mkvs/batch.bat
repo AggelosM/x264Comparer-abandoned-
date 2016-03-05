@@ -1,0 +1,1 @@
+for %%A IN (*.mkv) DO "PATH/ffmpeg.exe" -i "%%A" -an -f image2 "%%A_%%05d.png"
