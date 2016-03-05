@@ -76,4 +76,4 @@ You can edit the *.settings.bat files by finding and replacing the following set
 --ipratio 1.40
 --chroma-qp-offset 0
 
-DO NOT CHANGE THE --CRF OF THE --REF settings. MATLAB will ask to fix these for you.
+DO NOT CHANGE THE --CRF OR THE --REF settings. MATLAB will ask to fix these for you.
