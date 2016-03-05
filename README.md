@@ -1,7 +1,7 @@
 # x264Comparer
 Automatically creates x264 test encodes and compares them with the source to find the best setting using MATLAB.
 
-DESCRIPTION:
+------------------DESCRIPTION:------------------
 
 This script will make extremely easy for encoders to find what x264 settings give them the best results and transparency.
 You'll end up with a text file giving you the top 5 x264 settings coming out from 1100 different tests from the following combinations:
@@ -16,25 +16,34 @@ You'll end up with a text file giving you the top 5 x264 settings coming out fro
 
 --psy-rd (*:0.00 to *:0.10)
 
-WHAT YOU'LL NEED:
+------------------WHAT YOU'LL NEED:------------------
 
 1) MATLAB installed
+
 2) AviSynth with plugins
+
 3) AvsPmod
+
 4) Know what CRF and REF frames you wish to use for your final encoding.
 
-HOW TO USE:
+------------------HOW TO USE:------------------
 
 1) Put all the files and folders in a folder, preferably your movie folder. Go to /mkvs and extract there the ffmpeg.zip
+
 2) Edit source.avs by adding your video source with the desired cropping, fps, resolution and filters.
+
 2) By using SelectRangeEvery choose 5-6 frames that you wish MATLAB to compare them with the source after the encoding. Choose some challenging ones (no black bars or few colors).
+
 3) Press F5 and with right click Save Image As export each frame as png to your movie folder with the name "source_##.png"
 4) Run RUN_THIS_ONLY.bat (give it a few seconds to initialize).
+
 5) Follow the very simple instructions.
+
 6) After about 20 or more minutes (depending on your machine, your source and how many frames you have choosen) a text will be created in your folder telling you what are the top 5 x264 settings that give the best results.
+
 7) If you want open and edit comparison.avs to compare your source with the encodes (in the mkvs folder) which match the best settings (MATLAB will let you know what are these)
 
-NOTES:
+------------------NOTES:------------------
 
 You can edit the *.settings.bat files by finding and replacing the following settings with your desired ones:
 
